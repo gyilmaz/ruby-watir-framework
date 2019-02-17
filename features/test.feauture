@@ -1,0 +1,5 @@
+Feature: Test feature
+
+    Scenario: Testing links
+      When I enter the message
+      Then I should be able to see the message that I entered
