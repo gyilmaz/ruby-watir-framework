@@ -1,5 +1,11 @@
 Feature: Test feature
 
-    Scenario: Testing links
+    Scenario: Testing input form functionality
       When I enter the message
       Then I should be able to see the message that I entered
+
+  Scenario: Testing checkboxes
+      When I check all options by clicking a button
+      Then I verify all boxes are checked and button name is "Uncheck All"
+      And I unchecked one of the box
+      Then I verify button changed to 'Check All'
